@@ -1,5 +1,6 @@
 const axios = require('axios');
 const orderServiceURL = process.env.ORDER_SERVICE_URL;
+console.log("ORS", orderServiceURL);
 
 module.exports = {
   getOrders: async () => {
