@@ -1,6 +1,6 @@
 const axios = require('axios');
 const productServiceURL = process.env.PRODUCT_SERVICE_URL;
-
+console.log("PRODUCT_SERVICE_URL", productServiceURL);
 module.exports = {
   getProducts: async () => {
     const response = await axios.get(`${productServiceURL}/api/products`);
