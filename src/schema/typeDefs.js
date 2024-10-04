@@ -51,6 +51,7 @@ const typeDefs = gql`
     userId: String!
     products: [ProductOrderInput!]
     totalAmount: Float!
+    status: String! 
   }
 
   input ProductOrderInput {
